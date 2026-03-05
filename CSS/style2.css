@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+header 
+{
+    position:fixed;
+    width:100%;
+    background-color: #8a5c71;
+    padding: 1rem;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    padding: 2rem;
+}
+
+section{
+    margin-bottom: 2rem;
+    color: black;
+    font-family: 'Lucida Sans';
+}
+
+.introductions{
+    position: static;
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+    text-align: left;
+}
+.introductions h1{
+    color: black;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 250%;
+}
+.logo{
+    margin-top: 3%;
+    float: left;
+    border-radius: 50%;
+} 
+.aboutanimal1{
+    display: grid;
+    position: static;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.aboutanimal1 p{
+    font-size: 150%;
+    height: fit-content;
+}
+.aboutanimal1 img{
+    border-radius: 20%;
+}
+footer {
+    position: fixed;
+    background-color: #8a5c71;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0%;
+}
+

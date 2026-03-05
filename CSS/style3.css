@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+.box{
+    margin-top: 10%;
+    padding-bottom: 10%;
+    max-width: 100%;
+    max-height: 02;
+}
+
+header 
+{
+    position:fixed;
+    width:100%;
+    background-color: #8a5c71;
+    padding: 1rem;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    padding: 2rem;
+}
+
+section{
+    margin-bottom: 2rem;
+    color: black;
+    font-family: 'Lucida Sans';
+}
+
+.introductions{
+    position: static;
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+    text-align: left;
+}
+.introductions h1{
+    color: black;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 250%;
+}
+.logo{
+    margin-top: 3%;
+    float: left;
+    border-radius: 50%;
+} 
+.menu{
+    color: black;
+    width: fit-content;
+    position: static;
+    font-size: 150%;
+    display: grid;
+    height: 0.1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10%;
+}
+.middle img{
+    border-radius: 40%;
+}
+.farright img{
+    border-radius: 50%;
+}
+
+.dietary p{
+    text-align: center;
+    font-size: large;
+    bottom: 10%;
+    width: 100%;
+}
+footer {
+    position: fixed;
+    background-color: #8a5c71;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0%;
+}
